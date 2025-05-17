@@ -2,16 +2,16 @@
 <header class="bg-white shadow">
   <div class="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8 flex justify-between items-center">
     <!-- Logo/Dashboard Title -->
-    <div class="flex items-center space-x-4">
-      <h1 class="text-2xl font-bold text-gray-900">Admin Dashboard</h1>
+    <div class="flex items-center space-x-8">
+      <h1 class="text-2xl font-bold text-gray-900"><a href="dashboard.php" class="...">Admin Dashboard</a></h1>
 
-      <!-- Navigation Links -->
-      <nav class="hidden md:flex space-x-8">
-        <a href="../admin/sales.php" class="text-gray-600 hover:text-indigo-600 transition-colors">Sales</a>
-        <a href="../admin/transaction.php"
-          class="text-gray-600 hover:text-indigo-600 transition-colors">Transactions</a>
-        <a href="../admin/product.php" class="text-gray-600 hover:text-indigo-600 transition-colors">Products</a>
-      </nav>
+    <nav class="hidden md:flex space-x-10 items-center"> 
+      <a href="../admin/sales.php" class="text-gray-600 hover:text-indigo-600 transition-colors font-bold mx-0 px-0">Sales</a>
+      <a href="../admin/transaction.php"class="text-gray-600 hover:text-indigo-600 transition-colors font-bold mx-0 px-0">Transactions</a>
+      <a href="../admin/product.php" class="text-gray-600 hover:text-indigo-600 transition-colors font-bold mx-0 px-0">Products</a>
+      <a href="../admin/manage_student_balance.php" class="text-gray-600 hover:text-indigo-600 transition-colors font-bold">Manage Balances</a>
+    </nav>
+</nav>
     </div>
 
     <!-- User Controls -->
@@ -30,11 +30,11 @@
 
         <!-- Dropdown Menu -->
         <div class="dropdown-menu absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-10 hidden">
-          <a href="../admin/dashboard.php" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Your
+          <a href="../admin/profile.php" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Your
             Profile</a>
-          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Settings</a>
+          <a href="../admin/settings.php" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Settings</a>
           <div class="border-t border-gray-200"></div>
-          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Sign out</a>
+          <a href="logout.php" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Sign out</a>
         </div>
       </div>
 
